@@ -1,4 +1,4 @@
-# go-test-task
+# php-test-task
 **how to use**
 
 - To start, please install: docker, docker compose, php and composer
@@ -9,4 +9,4 @@
 - `make aws-cli foo bar` to execute the aws cli with parameters foo bar
 - `make aws-cli sqs list-queues` to access the sqs queue on aws localstack
 - To access the sql server, use mysql:3306 as adress and Port.
-- In your go application you have to use the eu-central-1 region to access aws localstack
+- In your php application you have to use the eu-central-1 region to access aws localstack
